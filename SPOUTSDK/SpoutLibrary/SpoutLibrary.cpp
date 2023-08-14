@@ -1551,7 +1551,7 @@ bool SPOUTImpl::UpdateSender(const char* Sendername, unsigned int width, unsigne
 //
 bool SPOUTImpl::CreateReceiver(char* Sendername, unsigned int &width, unsigned int &height, bool bUseActive)
 {
-	return spout->CreateReceiver(Sendername, width, height, bUseActive);
+	return spout->CreateReceiver(Sendername, width, height);
 }
 
 bool SPOUTImpl::CheckReceiver(char* Sendername, unsigned int &width, unsigned int &height, bool &bConnected)

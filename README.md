@@ -1,3 +1,5 @@
+A leaner fork of the upstream [Spout2](https://github.com/leadedge/Spout2) repository. All `dll` and `lib` files have been stripped.
+
 [Spout](https://spout.zeal.co/) is a video frame sharing system for Microsoft Windows, which allows applications to share OpenGL textures in a similar way to [Syphon](https://github.com/Syphon) for the Mac.
 
 Spout supports DirectX 9, DirectX 11, DirectX 12 and OpenGL textures and includes a developer SDK and sample applications. If you are interested in assisting with development, please contact using the email address indicated on the GitHub overview page.
